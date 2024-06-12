@@ -24,3 +24,11 @@ errorToast(String title) {
       fontSize: ValuesManager.vm16
   );
 }
+
+SizedBox buildSpaceVertical(BuildContext context, double value) => SizedBox(height: MediaQuery.of(context).size.height * value);
+
+SizedBox buildSpaceHorizontal(BuildContext context, double value) => SizedBox(width: MediaQuery.of(context).size.width * value);
+
+double getDeviceHeight(BuildContext context) => MediaQuery.of(context).size.height;
+
+double getDeviceWidth(BuildContext context) => MediaQuery.of(context).size.width;

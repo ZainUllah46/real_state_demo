@@ -7,6 +7,10 @@ class FavoritesView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: textStyle1(text: StringsManager.favorite),
+      ),
+    );
   }
 }

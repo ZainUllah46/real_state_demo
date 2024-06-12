@@ -7,6 +7,14 @@ class SplashView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Container(
+          height: getDeviceHeight(context) * 0.45,
+          width: getDeviceWidth(context) * 0.85,
+          decoration: const BoxDecoration(image: DecorationImage(image: AssetImage(AssetsManager.logo), fit: BoxFit.fill)),
+        ),
+      ),
+    );
   }
 }

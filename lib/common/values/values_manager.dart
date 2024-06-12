@@ -8,6 +8,7 @@ class ValuesManager {
   static const double vm4 = 4.0;
   static const double vm5 = 5.0;
   static const double vm6 = 6.0;
+  static const double vm7 = 7.0;
   static const double vm8 = 8.0;
   static const double vm10 = 10.0;
   static const double vm12 = 12.0;
